@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GBA Games</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="description" content= "Free, online GBA Emulator with over 300+ Games available Immediately! GitHub GBA Game website." />
+<meta name="robots" content= "index, follow">
+<meta name="keywords" content="gba, games, unblocked, play, free, gameboy, advance, emulator, roms, rom">
+<link rel = "stylesheet" href = "user_css/themes.css">
+        <link rel = icon href = Binaries/gb.ico sizes = "16x16 32x32 48x48 64x64" type = image/vnd.microsoft.icon>
+        <meta name = viewport content = "width = device-width, initial-scale = 1">
+
+        <link rel="stylesheet" href="user_css/index.css">
+        <link rel="stylesheet" href="user_css/filter.css">
+    </head>
+    <nav>
+      <p class="buttext"><a href="settings.html">Switch Theme</a></p>
+    </nav>
+    <body>
+        <h2>Welcome to the NEW EMULATOR!</h2>
+        <ul class="menu">
+          <li><a href="update.html" data-bubble="Changes And">The Old Emulator</a></li> 
+          <li><a href="settings.html" data-bubble="Updated!">Settings</a></li>
+          <li><a href="nes.html" data-bubble="600+!">NEW NES GAMES!</a></li>
+        </ul>
+        <main>
+          <div class="search-box">
+            <button aria-labelledby="search1" class="btn-search"><i class="fas fa-search"></i></button>
+            <input class="input-search" type="text" id="search1" onkeyup="searchBar()" placeholder="Search for games..">
+          </div>
+          <div class="filter-bar">
+            <p>Filter by: <button class="button-62"><a href="#" onclick="typeCheck(1);"><b>GBA</b></a></button> <button class="button-62" onclick="typeCheck(2);"><a href="#"><b>NES</b></a></button> <button class="button-62" onclick="typeCheck(3);"><a href="#"><b>SNES</b></a></button> <button class="button-62" onclick="typeCheck(4);"><a href="#"><b>N64</b></a></button> <button class="button-62" onclick="typeCheck(5);"><a href="#"><b>GB</b></a></button> <button class="button-62" onclick="typeCheck(6);"><a href="#"><b>Atari5200</b></a></button> <button class="button-62"><a href="#" onclick="typeCheck(7);"><b>DS</b></a></button> <button class="button-62" onclick="typeCheck(8);"><a href="#"><b>PS1</b></a></button> <button class="button-62"><a href="#" onclick="typeCheck(0);"><b>Reset</b></a></button></p>
+          </div>
+          <ul id="searchGames">
+            <p class="warning"></p>
+          <h1 class="gba-filter-hide">GBA Roms</h1>
+          <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(1);">Pokemon Sapphire</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(2);">0994</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(3);">advancewars</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(4);">advancewars2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(5);">adventure-blue-chapter-b1.1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(6);">adventure-gold-chapter-b1.2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(7);">adventure-green-chapter-b3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(8);">adventure-red-chapter-b15-exp-fix-c</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(9);">adventure-to-empire-isle-v0.5</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(10);">adventure-yellow-chapter-demo-fixed</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(11);">Aero_the_Acrobat__Rascal_Rival_Revenge</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(12);">aladdin</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(13);">alienhominid</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(14);">altair-2020-09-04</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(15);">altered-v1.11.2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(16);">alternate-evolutions-final</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(17);">aluminum-v0.1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(18);">another-emerald-v1.10c</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(19);">ash-hoenn-2021-06-08</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(20);">ash-johto-2021-01-17</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(21);">ash-kanto-2020-05-27</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(22);">ash-kanto-msb-2021-07-15</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(23);">ash-orange-league-2020-08-17</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(24);">ashgray-b4.5.3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(25);">Astro_Boy__Omega_Factor</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(26);">atari</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(27);">Atari_Anniversary_Advance_(USA)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(28);">Banjo_Kazooie__Grunty's_Revenge</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(29);">Banjo_Pilot</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(30);">blazing-emerald-v1.6</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(31);">bomberman_max2blue</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(32);">Bomberman_Max_2__Red_(E)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(33);">bomberman_tournament</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(34);">Breath_of_Fire_(E)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(35);">Breath_of_Fire_II_(USA)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(36);">Broken_Sword__the_Shadow_of_the_Templars</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(37);">bubblebobble</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(38);">Car_Battler_Joe_(USA)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(39);">Castlevania__Aria_of_Sorrow_(USA)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(40);">Castlevania__Circle_of_the_Moon</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(41);">Castlevania__Harmony_Of_Dissonance</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(42);">cb2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(43);">cbha</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(44);">cbprr</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(45);">cfpt</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(46);">Chu_Chu_Rocket!</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(47);">clays-calamity-1-v10</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(48);">clays-calamity-2-v5.1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(49);">clays-calamity-3-v3.9.3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(50);">cloud-white-3-v277</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(51);">cloud-white-v515</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(52);">cnk</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(53);">cosmicemerald-2019-12-24</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(54);">Crash_Bandicoot_2__N-Tranced</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(55);">Crash_Bandicoot__Purple_Riptos_Rampage</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(56);">Crash_Bandicoot__the_Huge_Adventure</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(57);">croket1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(58);">croket2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(59);">croket3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(60);">croket4</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(61);">dark-rising-2-completed</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(62);">dark-rising-order-destroyed-completed</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(63);">dark-rising-origins-wc-final</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(64);">darkfire-b2.0.5</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(65);">darkrising-1-complete</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(66);">darkrising-kaizo-2017-04-27</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(67);">dbz_supersonic</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(68);">delta-emerald-v1.1.5</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(69);">delta-fusion</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(70);">Denki_Blocks!_(USA)_(En,Es)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(71);">Densetsu_no_Stafy</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(72);">Densetsu_no_Stafy_2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(73);">Densetsu_no_Stafy_3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(74);">digimon_racing</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(75);">Disney's_Kim_Possible_2__Drakken's_Demise_(U)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(76);">dkc</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(77);">dkc2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(78);">dkc3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(79);">dkkos</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(80);">dm</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(81);">dm2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(82);">dmpl</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(83);">dna</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(84);">dnd</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(85);">Donkey_Kong_Country</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(86);">Donkey_Kong_Country_2_(U)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(87);">Donkey_Kong_Country_3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(88);">Donkey_Kong__King_of_Swing</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(89);">Dr._Mario_&_Puzzle_League</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(90);">Dragonball---Advanced-Adventure-#-GBA</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(91);">Dragonball-GT---Transformation-#-GBA</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(92);">Dragonball-Z---Buu's-Fury-#-GBA</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(93);">Dragonball-Z---Supersonic-Warriors-#-GBA</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(94);">Dragonball-Z---Taiketsu-#-GBA</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(95);">Dragonball-Z---the-Legacy-of-Goku-#-GBA</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(96);">Dragonball-Z---the-Legacy-of-Goku-2-#-GBA</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(97);">dreams-v1.5.1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(98);">drilldozer</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(99);">Drill_Dozer</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(100);">Duke_Nukem_Advance_(U)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(101);">earthwormjim</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(102);">earthwormjim2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(103);">Ecks_vs._Sever_(E)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(104);">emerald-extreme-randomizer</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(105);">Emerald-Extreme-Rom</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(106);">emerald-multiplayer</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(107);">emerald-randomizer</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(108);">emerald-chaos-rush</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(109);">emerald-genesis-b2.1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(110);">emerald-negative-exp</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(111);">eprp</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(112);">fan4</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(113);">fan4fo</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(114);">ff1and2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(115);">ff4</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(116);">ff4S</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(117);">ff6</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(118);">ffeud</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(119);">fifa4</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(120);">fifa5</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(121);">fifa6</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(122);">fifa7</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(123);">fifawc6</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(124);">final_fantasy_tactics</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(125);">Final_Fight_One_(U)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(126);">firered-chaos-rush</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(127);">fire_emblem</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(128);">fr3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(129);">frogger1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(130);">frogger2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(131);">frogger3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(132);">fused-dimensions-v1.6</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(133);">fusion-3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(134);">fusion-origins-v3.8</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(135);">fzero_gp</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(136);">fzero_max</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(137);">gamewatch4</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(138);">gba_video_pokemon_1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(139);">gba_video_pokemon_2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(140);">gba_video_pokemon_3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(141);">gba_video_pokemon_4</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(142);">goldensun</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(143);">Goomba-V2.2---Pokemon-Black---Special-Palace-Edition-1-by-MB-Hacks-(Red-Hack)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(144);">Gradius_Galaxies_(USA)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(145);">gta</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(146);">gunstar_super_heroes</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(147);">hamtaro_heartbreak</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(148);">here.png</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(149);">hmfmt</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(150);">hmmfmt</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(151);">iridion</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(152);">jbn</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(153);">jca</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(154);">jlc</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(155);">jlhth</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(156);">jlifa</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(157);">jp3dna</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(158);">jp3ia</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(159);">jp3pb</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(160);">Karnaaj_Rally_(U)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(161);">khcom</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(162);">King_of_Fighters_EX,_The__NeoBlood_(U)_(V1.1)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(163);">King_of_Fighters_EX_2__Howling_Blood</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(164);">kirbymirror</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(165);">kirbynightmare</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(166);">Klonoa_2__Dream_Champ_Tournament</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(167);">Klonoa__Empire_of_Dreams</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(168);">Konami_Krazy_Racers_(Europe)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(169);">Kururin_Paradise_(Japan)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(170);">Kuru_Kuru_Kururin</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(171);">lb</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(172);">league-of-legends-2017-09-12</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(173);">LEGO__Star_Wars_2__the_Original_Trilogy</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(174);">LEGO__Star_Wars__the_Video_Game</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(175);">li2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(176);">Lilo_&_Stitch</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(177);">lotr2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(178);">lotr3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(179);">lotrtta</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(180);">lr2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(181);">lsw</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(182);">Lunar_Legend_(U)_[!]</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(183);">lyp</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(184);">m3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(185);">mariokart</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(186);">marioland</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(187);">marioparty</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(188);">mariopinball</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(189);">Mario_and_Luigi__Superstar_Saga</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(190);">Mario_Golf__Advance_Tour</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(191);">Mario_Tennis__Power_Tour</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(192);">Mario_vs._Donkey_Kong</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(193);">Max_Payne_(USA)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(194);">Medal_of_Honor__Infiltrator_(U)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(195);">mega-evolution</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(196);">Mega-Man_Battle_Network</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(197);">Mega-Man_Battle_Network_2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(198);">Mega-Man_Battle_Network_3__Blue</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(199);">Mega-Man_Battle_Network_3__White</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(200);">Mega-Man_Battle_Network_4__Blue_Moon</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(201);">Mega-Man_Battle_Network_4__Red_Sun</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(202);">Mega-Man_Battle_Network_5__Team_Colonel</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(203);">Mega-Man_Battle_Network_5__Team_Proto-Man</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(204);">Mega-Man_Battle_Network_6__Cybeast_Falzar</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(205);">Mega-Man_Battle_Network_6__Cybeast_Gregar</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(206);">megamanbass</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(207);">megaman_battle1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(208);">megaman_battle2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(209);">megaman_battle3_blue</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(210);">megaman_battle4_blue</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(211);">megaman_battle4_red</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(212);">megaman_battle5</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(213);">megaman_battle6</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(214);">megaman_zero1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(215);">megaman_zero2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(216);">megaman_zero3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(217);">megaman_zero4</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(218);">metalslug</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(219);">metroid_fusion</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(220);">momotarou_dentetsu</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(221);">Monkey_Ball_Jr.</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(222);">monopoly</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(223);">monster_force</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(224);">Monster_Rancher_Advance_(USA)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(225);">Monster_Rancher_Advance_2_(USA)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(226);">moon-demo</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(227);">mortal_kombat</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(228);">mvsdk</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(229);">mysteryred</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(230);">mzm</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(231);">nbaj</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(232);">nesgh1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(233);">nfrp</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(234);">nfsu</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(235);">nfsu2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(236);">Ninja_Cop</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(237);">onepiece</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(238);">pacman_world</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(239);">pacman_world2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(240);">pmc</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(241);">pmpa</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(242);">Pocky_&_Rocky_with_Becky</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(243);">pokeland-0-ep-1-v1.1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(244);">pokemal-beta</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(245);">pokemblem-2021-10-09</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(246);">pokemet-v2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(247);">Pokemon---Liquid-Crystal-(v3.3.00512)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(248);">Pokemon-A-Grand-Day-Out</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(249);">Pokemon-Adventure---Red-Chapter-(Beta-15-+-Expansion-Fix)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(250);">Pokemon-Altered-Emerald-(v4.1e)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(251);">Pokemon-Ultra-Shiny-Gold-Sigma-(Hack-v1.3.8)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(252);">Pokemon-Ultra-Violet-(1.22)-LSA-(Fire-Red-Hack)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(253);">pokemonek</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(254);">pokemonemerald</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(255);">pokemonflorasky</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(256);">pokemongb</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(257);">pokemongreen</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(258);">pokemonlp</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(259);">pokemonred</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(260);">pokemonruby</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(261);">pokemonsapphire</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(262);">pokemon_fire_red_randomizer_version_demo</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(263);">pokes-bizarre-adventure-v1.1-final</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(264);">pokewb</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(265);">ppf</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(266);">pprs</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(267);">prs</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(268);">puyopop</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(269);">Puyo_Pop</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(270);">Puzzle_Fighter_2_Turbo</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(271);">pvzgba-2020-11-16</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(272);">r3hh</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(273);">ra</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(274);">Racing_Gears_Advance_(U)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(275);">Ray-Man_3__Hoodlum_Havoc</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(276);">Ray-Man_Advance</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(277);">Rhythm_Tengoku_(Japan)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(278);">rsrs</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(279);">rtpl</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(280);">ruby-destiny-bt-b1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(281);">ruby-destiny-log-2017v1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(282);">ruby-destiny-rol-2016v4.1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(283);">ruby-destiny-rol-remake-b1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(284);">ruby-destiny-rr-hrm-2021-07-08</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(285);">ruby-wonder-guard</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(286);">sag</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(287);">sc</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(288);">simpsons</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(289);">sims2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(290);">sims_bustin_out</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(291);">sirius-2020-09-04</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(292);">sma4+</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(293);">sonicbattle</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(294);">sonicpinball</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(295);">sonic_advance</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(296);">sonic_advance2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(297);">sonic_advance3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(298);">Spyro_3__Attack_of_the_Rhynocs</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(299);">spyro_adventure</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(300);">spyro_flame</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(301);">spyro_ice</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(302);">Spyro_Orange__the_Cortex_Conspiracy</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(303);">sthg</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(304);">stranded-v0.1.4</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(305);">Summon_Night__Swordcraft_Story</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(306);">Summon_Night__Swordcraft_Story_2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(307);">supermarioadvance</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(308);">supermarioadvance2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(309);">supermarioadvance3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(310);">supermarioadvance4</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(311);">supermonkeyballjr</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(312);">superstar</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(313);">Super_Bust-A-Move_(USA)_(En,Fr,Es)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(314);">Super_Dodge_Ball_Advance_(Europe)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(315);">Super_Ghouls_'N_Ghosts_(U)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(316);">super_street_fighter_2_turbo_revival</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(317);">super_street_fighter_3_alpha</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(318);">Sword_of_Mana_(USA,_Australia)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(319);">Tactics_Ogre__the_Knight_of_Lodis</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(320);">tak2_staff_of_dreams</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(321);">tales_of_phantasia</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(322);">team-training-v8</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(323);">Tekken_Advance_(U)_[!]</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(324);">tetris_worlds</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(325);">tggtc</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(326);">tgr</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(327);">thas</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(328);">thps2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(329);">thps3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(330);">thps4</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(331);">thu</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(332);">thu2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(333);">tmnt</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(334);">Tony_Hawk's_Downhill_Jam</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(335);">Touhou-Puppet-Play-Enhanced-(Reloaded-v4.6)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(336);">Touhou-Puppet-Play-Enhanced-v1.11---Original</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(337);">Touhou-Puppet-Play-Enhanced-v1.11---Renko</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(338);">Touhoumon-Purple-(Difficulty---Hard)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(339);">Touhoumon-Purple-(Difficulty---Ultimate)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(340);">Touhoumon-Purple-(Difficulty---Very-Hard)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(341);">Touhoumon-Purple-(Original)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(342);">Touhoumon-Purple-(Sandbox)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(343);">Turbo-Turtle-Adventure-(USA)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(344);">turok_evolution</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(345);">twenty50-v0.0.1</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(346);">ty2</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(347);">ty3</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(348);">Ultimate_Brain_Games_(U)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(349);">Ultimate_Card_Games_(U)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(350);">unsb</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(351);">V-Rally_3_(U)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(352);">Virtua_Tennis_(U)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(353);">Wade_Hixton's_Counter_Punch_(USA,_Europe)</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(354);">warioland4</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(355);">wario_ware</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(356);">ygo-pokeduel-v3.0</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(357);">ynfa</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(358);">Yu-Gi-Oh!__The_Eternal_Duelist_Soul_(U)_[!]</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(358);">zelda_minish</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(360);">zelda_past</a></li>
+            <li class="gba-filter-hide"><a href="launchpad.html" onclick="gameType(361);">007</a></li>
+        
+        <h1 class="nes-filter-hide">NES</h1>
+        <li class="nes-filter-hide"><a href="nes.html">600+ NES GAMES!</a></li>
+        <h1 class="snes-filter-hide">SNES</h1>
+        <p class="snes-filter-hide">None yet, check back later...</p>
+        <h1 class="n64-filter-hide">N64</h1>
+        <li class="n64-filter-hide"><a href="launchpad.html" onclick="gameType(3501);">Super Mario Kart 64</a></li>
+
+        <h1 class="gb-filter-hide">G@meboy</h1>
+        <li class="gb-filter-hide"><a href="launchpad.html" onclick="gameType(4501);">Tetris (GB)</a></li>
+
+        <h1 class="atari-filter-hide">Atari5200</h1>
+        <li class="atari-filter-hide"><a href="launchpad.html" onclick="gameType(6001);">Galaxian USA</a></li>
+
+        <h1 class="ds-filter-hide">DS</h1>
+        <li class="ds-filter-hide"><a href="launchpad.html" onclick="gameType(7001);">Dragon Quest Hero's Rocket Slime</a></li>
+
+        <h1 class="ps1-filter-hide">PS1</h1>
+        <p class="ps1-filter-hide">None yet, check back later...</p>
+        
+        
+        
+   </ul>
+   <h3>Featured Sites using this page!</h3>
+   <p>Please note that only Math Study links are directly owned by Math Study, other links are not controlled by us. If you have an issue, please contact us in our discord.</p>
+      
+          <p><a href="https://sites.google.com/stu.palmbeachschools.org/mathlearningcenter/home">Math Study</a></p>
+          <p><a href="https://cattn.github.io/msgv2">MSGweb</a></p>
+          <p><a href="https://discord.gg/nZrabh4cgH">Math Study Discord</a></p>
+          <p><a href="https://xlegends.github.io/gxmehub">Gxmehub!</a></p>
+          <p><a href="https://sites.google.com/view/sealcentral/home?authuser=0">Seal Central!</a></p>
+          <p><a href="https://sites.google.com/view/sp-gxmes">SP Launcher</a></p>
+          <p><a href="https://sites.google.com/view/artclass-site">Art Class</a></p>
+          <p> Want your site link here? If you use this in your site, contact Catt#5172, and we can partner!</p>
+              
+        
+       </main>
+   <a href="testlaunch.html">click this to upload game files</a>
+  </body>
+    <script src="data/js/type.js"></script>
+    <script src="user_scripts/theme.js"></script>
+    <script src="data/js/filter.js"></script>
+</html>
