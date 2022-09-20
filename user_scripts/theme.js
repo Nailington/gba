@@ -15,6 +15,11 @@ function themeValue(toggleState) {
       
       localStorage.setItem('theme', 'pink');
     }
+    if (toggleState == 4) {
+      document.documentElement.setAttribute('data-theme', 'green');
+    
+    localStorage.setItem('theme', 'green');
+  }
 }
 
 const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;

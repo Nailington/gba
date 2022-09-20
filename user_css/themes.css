@@ -28,6 +28,16 @@
     --main-border-color: #548ca9;
 }
 
+[data-theme="green"] {
+    --primary-color: #096d08;
+    --secondary-color: #0a9e66;
+    --font-color: #063810;
+    --bg-color: #06b44e;
+    --heading-color: #096d08;
+    --gradiant-color: linear-gradient(90deg, #15894f 0%, #26703f 100%);
+    --main-border-color: #a9eb4c;
+}
+
 
 .light-theme-container {
     background-color: rgb(200, 200, 200);
@@ -60,6 +70,15 @@
     color: #cb55b9;
 }
 
+.green-theme-container {
+    background-color: #06b44e;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.green-theme-content {
+    color: #096d08;
+}
 
 .collapsible-theme {
     background-color: var(--primary-color);
