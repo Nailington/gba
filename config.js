@@ -1,7 +1,7 @@
 let theme = "green";
 let useCustomTheme = true; // Must Set to true if using a custom theme
-let customHost = "https://math-study.github.io/gba-host/";
-let useCustomHost = true; // Must Set to true if using a custom host
+let customHost = "";
+let useCustomHost = false; // Must Set to true if using a custom host
 let useAltHost = false; 
 let useNetPlay = false;
 let useAltNdsHost = false;
