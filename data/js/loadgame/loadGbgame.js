@@ -511,6 +511,7 @@ const gameNameTypeID =
 '../gba-host/gb-alt/Zen_-_Intergalactic_Ninja_(USA).7z',
 '../gba-host/gb-alt/Zool_-_Ninja_of_the_Nth_Dimension_(USA).7z',
 '../gba-host/gb-alt/Zoop_(USA_Europe).7z',
+'Binaries/Pac-Man_(USA).7z',
 
 
 

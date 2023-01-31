@@ -274,10 +274,19 @@ color: var(--bg-color);
   .rec-emu-tile:hover {
     transform: scale(1.22);
   }
-
+    .link-emu-tile:hover {
+        transform: scale(1.1);
+    }
 .gba-tile-wrap {
     display: table;
   margin: 0 auto;
+}
+
+.link-emu-tile {
+    width: 39vw;
+    height: 5vw;
+    background: #4d32b0;
+    border: 3px solid #000000;
 }
 
 .rec-emu-tile {
@@ -411,4 +420,24 @@ text-decoration: underline;
 
 .register-button {
     padding-right: 75px;
+}
+
+.center-main .side-text:hover {
+    font-size: 4vh;
+}
+
+.ad-banner-square {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+}
+
+.text-josh {
+    font-family: 'Baloo Da';
+    font-size: 28px;
+    color: var(--heading-color);
+    display: block !important;
+    text-align: center;
+    justify-content: center;
 }

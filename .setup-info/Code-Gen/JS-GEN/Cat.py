@@ -1,6 +1,6 @@
 myfile = open("gen\\filenames.txt", "r")
 myline = myfile.readline()
-gameType = "gbc-alt"
+gameType = "nes-alt"
 while myline:
     print(myline)
     myline = myfile.readline()

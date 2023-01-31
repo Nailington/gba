@@ -86,7 +86,7 @@ const OFFLINE_CSS3 = "user_css/themes.css";
 const OFFLINE_JS = "user_scripts/theme.js";
 const OFFLINE_404 = "404.html";
 const OFFLINE_DEV = "dev.html";
-const OFFLINE_DEVJS = "dev.js";
+const OFFLINE_DEVJS = "user_scripts/dev.js";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

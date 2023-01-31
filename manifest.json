@@ -1,7 +1,7 @@
 {
 "name": "MSG Retro Emulator",
 "short_name": "MSG Emulator",
-"start_url": "https://math-study.github.io/gba",
+"start_url": "https://cattn.github.io/gba/",
 "display": "standalone",
 "description": "An emulator provided by the folks at MSG! We have a wide variety of retro games for you to enjoy, with more being added regularly!",
 "lang": "en-US",

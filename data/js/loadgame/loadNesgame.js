@@ -707,6 +707,16 @@ const gameNameTypeID =
 '../gba-host/nes-alt/720.nes.zip',
 '/Binaries/Mega_Man_2.nes.zip',
 '/Binaries/Contra.nes.zip',
+'../gba-host/nes-alt/Dragon_Buster_jp.nes.zip',
+'../gba-host/nes-alt/Dragon_Spirit_us.nes.zip',
+'../gba-host/nes-alt/Druaga_no_tou_jp.nes.zip',
+'../gba-host/nes-alt/Galaxian_jp.nes.zip',
+'../gba-host/nes-alt/Mappy_jp.nes.zip',
+'../gba-host/nes-alt/pacman_ce.nes.zip',
+'../gba-host/nes-alt/Pac_Man_jp.nes.zip',
+'../gba-host/nes-alt/Sky_Kid_jp.nes.zip',
+'../gba-host/nes-alt/Splatter_House_jp.nes.zip',
+'../gba-host/nes-alt/Xevious_jp.nes.zip',
 
 
 
